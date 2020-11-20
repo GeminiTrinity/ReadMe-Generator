@@ -1,8 +1,9 @@
 // array of questions for user
 const inquirer = require("inquirer");
+const fs = require("fs");
 
-inquirer
-    .prompt([
+const questions = [
+    // Assistance with learning Inquirer: https://bit.ly/3nzs1O2
         {
             name: "title",
             type: "input",
@@ -64,20 +65,17 @@ inquirer
             type: "input",
             message: "What is your phone number? (xxx-xxx-xxxx)"
         },
-    ])
-// const questions = [
-//     name:
-//     type:
-//     message:
-// ];
+]
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile() {
+
 }
 
 // function to initialize program
 function init() {
-
+    inquirer
+    .prompt([questions])
 }
 
 // function call to initialize program
