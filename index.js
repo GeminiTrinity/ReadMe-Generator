@@ -1,6 +1,8 @@
 // array of questions for user
 const inquirer = require("inquirer");
 const fs = require("fs");
+const markDown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 const questions = [
     // Assistance with learning Inquirer: https://bit.ly/3nzs1O2
@@ -17,12 +19,32 @@ const questions = [
         {
             name: "link",
             type: "input",
-            message: "Include the live link to the deployed app:"
+            message: "Include the live link to the deployed app (start with http://):"
         },
         {
-            name: "installation",
+            name: "installationOne",
             type: "input",
-            message: "Write the steps required to install your project."
+            message: "First step to install your project. (skip if none)"
+        },
+        {
+            name: "installationTwo",
+            type: "input",
+            message: "Second step to install your project. (skip if none)"
+        },
+        {
+            name: "installationThree",
+            type: "input",
+            message: "Third step to install your project. (skip if none)"
+        },
+        {
+            name: "installationFour",
+            type: "input",
+            message: "Fourth step to install your project. (skip if none)"
+        },
+        {
+            name: "installationFive",
+            type: "input",
+            message: "Fifth step to install your project. (skip if none)"
         },
         {
             name: "usage",
@@ -32,17 +54,17 @@ const questions = [
         {
             name: "collaborators",
             type: "input",
-            message: "Include any collaborators, as well as their GitHubs and emails, here (skip if none):"
+            message: "Include any collaborators, as well as their GitHubs and emails. (skip if none):"
         },
         {
-            name: "third-party",
+            name: "thirdParty",
             type: "input",
-            message: "Include any third-parties that require attribution (skip if none):"
+            message: "Include any third-parties and their links that require attribution. (skip if none):"
         },
         {
             name: "tutorials",
             type: "input",
-            message: "Include any tutorial links here (skip if none):"
+            message: "Include any tutorial links here. (skip if none):"
         },
         {
             name: "license",
@@ -53,7 +75,7 @@ const questions = [
         {
             name: "github",
             type: "input",
-            message: "What is your GitHub username?"
+            message: "Include your GitHub Link (start with http://)"
         },
         {
             name: "email",
@@ -68,14 +90,16 @@ const questions = [
 ]
 
 // function to write README file
-function writeToFile() {
-
-}
+// function writeToFile(filename, data) {
+//     return fs.writeFileSync(filename, data)
+// }
 
 // function to initialize program
 function init() {
     inquirer
-    .prompt([questions])
+    .prompt(questions).then((answer) => {
+        fs.writeFileSync("Generated_README.md", generateMarkdown(answer))
+    })
 }
 
 // function call to initialize program
