@@ -3,7 +3,18 @@
 function generateMarkdown(data) {
   return `
 # <center> ${data.title} 
-          
+
+## <center> **Table of Contents**
+- [Description](#description)
+- [Installation](#installation-steps)
+- [How To Use](#how-to-use)
+- [Credit](#additional-credit)
+- [License](#license)
+- [Contact](#contact-info)
+
+---
+<br>
+
 ## Description: 
 ${data.description}
 > ${data.link}

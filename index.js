@@ -89,10 +89,6 @@ const questions = [
         },
 ]
 
-// function to write README file
-// function writeToFile(filename, data) {
-//     return fs.writeFileSync(filename, data)
-// }
 
 // function to initialize program
 function init() {
