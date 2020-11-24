@@ -3,7 +3,6 @@
           
 ## Description: 
 The README Generator allows you to create a professional README file by just answering a few quick questions. This README was created with the generator!
-> http://www.livelink.com
 
 ---
 
