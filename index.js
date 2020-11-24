@@ -64,7 +64,7 @@ const questions = [
         {
             name: "tutorials",
             type: "input",
-            message: "Include any tutorial links here. (skip if none):"
+            message: "Include any tutorial links here (start with http://). (skip if none):"
         },
         {
             name: "license",
@@ -94,7 +94,7 @@ const questions = [
 function init() {
     inquirer
     .prompt(questions).then((answer) => {
-        fs.writeFileSync("README.md", generateMarkdown(answer))
+        fs.writeFileSync("READMEe.md", generateMarkdown(answer))
     })
 }
 

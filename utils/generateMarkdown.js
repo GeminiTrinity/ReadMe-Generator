@@ -40,9 +40,11 @@ ${data.usage}
 **Collaborators:**
 *(delete if none)*
 > ${data.collaborators}
+
 **Third-Parties:**
 *(delete if none)*
 > ${data.thirdParty}
+
 **Tutorials Used:**
 *(delete if none)*
 > ${data.tutorials}
