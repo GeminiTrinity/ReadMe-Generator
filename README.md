@@ -7,9 +7,8 @@ The README Generator allows you to create a professional README file by just ans
 ---
 
 ## Installation Steps:
-1. Download the README Generator
-2. Go into the file
-3. Download Node.JS
+1. Download Node.JS
+2. Download the README Generator
 
 ---
 
