@@ -7,7 +7,7 @@
 - [How To Use](#how-to-use)
 - [Credit](#additional-credit)
 - [License](#license)
-- [Contact](#contact-info)
+- [My Information](#my-information)
 
 ---
 <br>
@@ -39,7 +39,7 @@ The project is really quite simple, all you have to do is go into the console, t
 
 ---
 
-## Contact Info:
+## My Information:
 **Github Link:**
 > https://github.com/GeminiTrinity
 

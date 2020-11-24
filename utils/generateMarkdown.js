@@ -10,7 +10,7 @@ function generateMarkdown(data) {
 - [How To Use](#how-to-use)
 - [Credit](#additional-credit)
 - [License](#license)
-- [Contact](#contact-info)
+- [My Information](#my-information)
 
 ---
 <br>
