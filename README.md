@@ -14,7 +14,6 @@
 
 ## Description: 
 The README Generator allows you to create a professional README file by just answering a few quick questions. This README was actually created with the README Generator!
-> https://youtu.be/EytU2sW9VlE
 
 ---
 
@@ -27,6 +26,7 @@ The README Generator allows you to create a professional README file by just ans
 ## How To Use:
 
 The project is really quite simple, all you have to do is go into the console, type "node index.js", and answer the questions provided! Once done, go into the created file and update anything that needs to be fixed or removed!
+> Instructional Video: https://youtu.be/EytU2sW9VlE
 
 ---
 
