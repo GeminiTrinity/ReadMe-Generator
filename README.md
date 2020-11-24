@@ -2,21 +2,19 @@
 # <center> README Generator 
           
 ## Description: 
-The README Generator allows you to create a professional README file by just answering a few quick questions. This README was created with the generator!
-> http://www.livelink.com
+The README Generator allows you to create a professional README file by just answering a few quick questions. This README was actually created with the README Generator!
 
 ---
 
 ## Installation Steps:
-1. Download the README Generator
-2. Go into the file
-3. Download Node.JS
+1. Download Node.JS
+2. Download the README Generator
 
 ---
 
 ## How to Use:
 
-The project is really quite simple, all you have to do is go into the console, type "node index.js", and answer the questions provided! Once done, go into the created file and update anything that needs to be fixed.
+The project is really quite simple, all you have to do is go into the console, type "node index.js", and answer the questions provided! Once done, go into the created file and update anything that needs to be fixed or removed!
 
 ---
 

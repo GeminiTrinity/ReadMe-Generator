@@ -1,4 +1,5 @@
 // function to generate markdown for README
+// Markdown assistance from: https://bit.ly/3l3BYl3
 function generateMarkdown(data) {
   return `
 # <center> ${data.title} 

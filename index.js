@@ -98,7 +98,7 @@ const questions = [
 function init() {
     inquirer
     .prompt(questions).then((answer) => {
-        fs.writeFileSync("Generated_README.md", generateMarkdown(answer))
+        fs.writeFileSync("README.md", generateMarkdown(answer))
     })
 }
 
