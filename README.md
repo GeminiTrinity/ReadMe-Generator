@@ -2,7 +2,7 @@
 # <center> README Generator 
           
 ## Description: 
-The README Generator allows you to create a professional README file by just answering a few quick questions. This README was created with the generator!
+The README Generator allows you to create a professional README file by just answering a few quick questions. This README was actually created with the README Generator!
 
 ---
 
